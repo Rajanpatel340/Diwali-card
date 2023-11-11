@@ -185,5 +185,31 @@ body{
           font-family: Verdana, Geneva, Tahoma, sans-serif;
           font-size: 10px;
       }
-    
+      @media only screen and (max-width: 600px) {
+        
+        .candle {
+            background-color: #7B020B;
+            width: 100px;
+            height: 50px;
+            border-radius: 8px / 4px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 35px;
+            border-bottom-right-radius: 35px;
+            bottom: 117px;
+            left: 34%;
+            margin-left: -8px;
+            z-index: 10;
+        }
+        .card > img {
+            width: 90%;
+            height: 250px;
+            border-radius: 15px 15px 30px 30px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            margin: 0 5%;
+            top: -80px;
+            position: relative;
+        }
+
+      }
     
